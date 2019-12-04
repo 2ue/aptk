@@ -10,9 +10,9 @@ all-powerful toolkit of project！
 
 > There are a series of built-in templates to choose. [eslint-list](https://github.com/dustinspecker/awesome-eslint)
 
-## install normal.css
+## install normalize.css
 
-> can install normal.css/less/scss.
+> can install normalize.css/less/scss.
 
 ## generate file
 

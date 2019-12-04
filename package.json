@@ -1,0 +1,31 @@
+{
+  "name": "aptk",
+  "version": "0.0.1",
+  "description": "all-powerful toolkit of project",
+  "main": "index.js",
+  "scripts": {
+    "pub": "npm publish"
+  },
+  "keywords": [
+    "tool",
+    "eslint",
+    "normalize",
+    "generate"
+  ],
+  "author": {
+    "name": "2ue",
+    "email": "jie746635835@163.com"
+  },
+  "homepage": "https://github.com/2ue/aptk",
+  "repository": {
+    "type": "git",
+    "ssh": "git@github.com:2ue/aptk.git",
+    "url": "https://github.com/2ue/aptk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2ue/aptk/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
