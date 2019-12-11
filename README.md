@@ -17,3 +17,9 @@ all-powerful toolkit of project！
 ## generate file
 
 > According to the template to generate files.
+
+## 目录结构
+
+### config
+
+用于各种工具的配置，在执行

@@ -1,11 +1,11 @@
 {
   "name": "aptk",
-  "version": "0.0.1",
+  "version": "0.0.15",
   "description": "all-powerful toolkit of project",
   "main": "index.js",
   "scripts": {
     "pub": "npm publish",
-    "test": "node src/index a=2 ---b=3",
+    "test": "node bin/ name=eslint",
     "precommit-msg": "echo 'Pre-commit checks.........' && exit 0",
     "lint": "eslint --ext .js --ext .vue ./ --fix && git add ."
   },
@@ -19,6 +19,12 @@
     "normalize",
     "generate"
   ],
+  "bin": {
+    "aptk": "bin/index.js",
+    "aptk/eslint": "bin/eslint-cli/index.js",
+    "aptk/gen": "bin/generate-cli/index.js",
+    "aptk/css/rest": "bin/css-cli/index.js"
+  },
   "author": {
     "name": "2ue",
     "email": "jie746635835@163.com"
